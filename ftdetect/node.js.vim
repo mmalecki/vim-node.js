@@ -1,6 +1,6 @@
 " vim-node.js - file type detect plugin for vim which detects node.js shebang
 " Author:       Maciej Malecki
-" Version:      1.0
+" Version:      1.1.0
 " License:      MIT
 "
 " Install via pathogen by cloning/adding submodule in ~/.vim/bundle or
