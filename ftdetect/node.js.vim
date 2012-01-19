@@ -6,7 +6,7 @@
 " Install via pathogen by cloning/adding submodule in ~/.vim/bundle or
 " by dropping this script in ~/vim/ftdetect
 
-function DetectNode()
+function! DetectNode()
   if !did_filetype()
     if getline(1) =~ '^#.*\<node\>'
       setfiletype javascript
