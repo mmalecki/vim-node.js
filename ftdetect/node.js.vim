@@ -15,4 +15,3 @@ function! DetectNode()
 endfunction
 
 :au BufNewFile,BufRead * call DetectNode()
-
