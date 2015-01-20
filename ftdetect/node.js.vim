@@ -8,7 +8,7 @@
 
 function! DetectNode()
   if !did_filetype()
-    if getline(1) =~ '^#.*\<node\>'
+    if getline(1) =~ '^#.*(\<node\>|\<iojs\>)'
       setfiletype javascript
     endif
   endif
